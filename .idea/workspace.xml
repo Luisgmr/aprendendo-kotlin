@@ -4,19 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="232cdcf4-a559-4832-bfd5-942ea3376ae6" name="Changes" comment="Commit inicial">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/basico/ControleDeFluxo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/basico/Funcoes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/basico/Funcoes2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/basico/Lista.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/basico/Loop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/basico/Set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/basico/TiposDeVariaveis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/basico/Variaveis.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="232cdcf4-a559-4832-bfd5-942ea3376ae6" name="Changes" comment="Kotlin básico - Set">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/basico/Datas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/basico/Map.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/classes/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/classes/Pessoa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/encapsulamento/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/encapsulamento/Calculadora.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/encapsulamento2/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/encapsulamento2/Pessoa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/heranca/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/heranca/Calculadora.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/heranca/CalculadoraCientifica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/heranca2/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/heranca2/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/heranca2/Cachorro.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/heranca2/Gato.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/heranca2/Mamifero.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/heranca2/Peixe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/heranca2/Pessoa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/polimorfismo/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/polimorfismo/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/polimorfismo/Cachorro.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/polimorfismo/Gato.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/polimorfismo/Mamifero.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/polimorfismo/Peixe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/poo/polimorfismo/Pessoa.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/luisgmr/Main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -64,24 +79,31 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build aprendendo-kotlin.executor": "Run",
+    "Kotlin.Application.executor": "Run",
     "Kotlin.ControleDeFluxoKt.executor": "Run",
     "Kotlin.Funcoes2Kt.executor": "Run",
     "Kotlin.FuncoesKt.executor": "Run",
     "Kotlin.ListaKt.executor": "Run",
     "Kotlin.LoopKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin.MapKt.executor": "Run",
     "Kotlin.SetKt.executor": "Run",
+    "Kotlin.TesteKt.executor": "Run",
     "Kotlin.TiposDeVariaveisKt.executor": "Run",
     "Kotlin.VariaveisKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/luisg/IdeaProjects/aprendendo-kotlin/src/main/kotlin/com/luisgmr/poo/polimorfismo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -90,6 +112,21 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luisg\IdeaProjects\aprendendo-kotlin\src\main\kotlin\com\luisgmr\poo\polimorfismo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luisg\IdeaProjects\aprendendo-kotlin\src\main\kotlin\com\luisgmr\poo" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.luisgmr.poo.classes" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.luisgmr.poo.heranca2" />
+      <recent name="com.luisgmr.poo.heranca" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -107,7 +144,9 @@
       <option name="presentableId" value="Default" />
       <updated>1723303601655</updated>
       <workItem from="1723303602741" duration="1464000" />
-      <workItem from="1723485068673" duration="7532000" />
+      <workItem from="1723485068673" duration="9353000" />
+      <workItem from="1723587760877" duration="5424000" />
+      <workItem from="1723659765027" duration="9645000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <option name="closed" value="true" />
@@ -117,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723303858495</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Kotlin básico - Set">
+      <option name="closed" value="true" />
+      <created>1723498013893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723498013893</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +172,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial" />
+    <MESSAGE value="Kotlin básico - Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin básico - Set" />
   </component>
 </project>
